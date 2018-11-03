@@ -13,12 +13,11 @@
     "url": "https://github.com/ashleywm/koa-starter.git"
   },
   "keywords": [
-    "Pi",
     "Koa",
     "API",
     "REST",
-    "Sensors",
-    "Weather"
+    "Starter",
+    "Template"
   ],
   "author": "Ashley Morris",
   "license": "MIT",
