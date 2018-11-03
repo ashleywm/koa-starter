@@ -1,0 +1,43 @@
+{
+  "name": "koa-starter",
+  "version": "0.0.1",
+  "description": "An opinionated Koa project starter ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_PATH=src nodemon index.js",
+    "start": "cross-env NODE_PATH=src node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashleywm/koa-starter.git"
+  },
+  "keywords": [
+    "Pi",
+    "Koa",
+    "API",
+    "REST",
+    "Sensors",
+    "Weather"
+  ],
+  "author": "Ashley Morris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashleywm/koa-starter/issues"
+  },
+  "homepage": "https://github.com/ashleywm/koa-starter",
+  "dependencies": {
+    "eslint": "^5.8.0",
+    "koa": "^2.6.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-morgan": "^1.0.1",
+    "koa-response-time": "^2.0.0",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.3.9",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "nodemon": "^1.18.5"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "APP_NAME": "koa-starter",
+  "HOST": "localhost",
+  "PORT": 8080,
+  "ENV": "dev",
+  "MONGO_DATABASE_NAME": "mongodev",
+  "MONGO_URL": "mongodb://localhost:27017",
+  "LOG_LEVEL": "silly"
+}
